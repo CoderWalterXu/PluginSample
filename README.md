@@ -7,5 +7,5 @@
 DexClassLoader类加载器加载外部apk的class     
 Resouces资源管理器加载外部apk的资源     
 
-插件Activity继承pluginlibrary中的PluginBaseActivity
+pluginapk中的Activity继承pluginlibrary中的PluginBaseActivity,所以生成的apk既可以被系统加载，也可以作为插件被主App加载
 
