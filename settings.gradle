@@ -1,0 +1,2 @@
+include ':app', ':pluginlibrary', ':pluginapk'
+rootProject.name='PluginSample'
