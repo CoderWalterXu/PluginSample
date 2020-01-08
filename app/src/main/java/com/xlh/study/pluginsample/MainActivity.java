@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        PluginManager.getInstance().init(this);
-
 
         btnLoad = findViewById(R.id.btn_load);
         btnJump = findViewById(R.id.btn_jump);
